@@ -5519,7 +5519,7 @@
 		)
 		(uuid "bb1313ec-a46f-4898-95dc-763a970fad7f")
 	)
-	(text "If you won't use RTC or a 32 kHz clock:\n\nTie OSC32_IN to GND\nLeave OSC32_OUT floating\n"
+	(text "If you won't use RTC or a 32 kHz clock:\n\nTie OSC32_IN to GND\nLeave OSC32_OUT floating\n\nBOOT0 Cofiguration\n1 MCU enters built-in bootloader mode, allowing firmware \nupdates via UART or I2C. Used for flashing firmware \nwithout a debugger.\n0 MCU starts normally, running the user program stored \nin internal flash. ✅ (Normal operation)"
 		(exclude_from_sim no)
 		(at 330.2 46.355 0)
 		(effects
@@ -5583,6 +5583,17 @@
 			(justify left bottom)
 		)
 		(uuid "04d4e1ee-cd9c-47d3-a0d8-51cf447ec693")
+	)
+	(label "SYS_SWDIO"
+		(at 288.29 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b31fad3-bb1a-4e3f-9cda-e9511a7c68df")
 	)
 	(label "I2C1_SCL"
 		(at 130.81 46.99 90)
@@ -5649,17 +5660,6 @@
 			(justify right bottom)
 		)
 		(uuid "207e422b-afbd-4bd5-9c75-df6540fc00f9")
-	)
-	(label "NRST"
-		(at 288.29 177.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "212da357-0477-43d0-8098-bd8e3bf50a50")
 	)
 	(label "SEL"
 		(at 256.54 69.85 0)
@@ -5782,17 +5782,6 @@
 		)
 		(uuid "61df187e-4c60-4989-8b23-241e9eda0807")
 	)
-	(label "SYS_SWCLK"
-		(at 288.29 175.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6ce51282-50f7-4adb-bd46-6feec4130d5c")
-	)
 	(label "PA5"
 		(at 128.27 114.3 270)
 		(fields_autoplaced yes)
@@ -5825,17 +5814,6 @@
 			(justify right bottom)
 		)
 		(uuid "79b01e4d-e58c-46ca-968a-d934a5e934ed")
-	)
-	(label "SYS_SWDIO"
-		(at 288.29 172.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "84584c4b-f6c3-4608-9479-7a1a5ec019d3")
 	)
 	(label "PA11"
 		(at 162.56 80.01 0)
@@ -5991,6 +5969,17 @@
 		)
 		(uuid "eb6e1fd8-2104-411d-947a-59214d6e56fe")
 	)
+	(label "SYS_SWCLK"
+		(at 288.29 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ee1d8add-9ad1-4902-9200-204670ab5cc8")
+	)
 	(label "PA10"
 		(at 162.56 82.55 0)
 		(fields_autoplaced yes)
@@ -6012,6 +6001,17 @@
 			(justify left bottom)
 		)
 		(uuid "f243cbfc-1c05-49ec-b1dd-90af8eda8094")
+	)
+	(label "NRST"
+		(at 288.29 172.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe0e1a1e-380e-41ef-a1ec-341d00658f16")
 	)
 	(symbol
 		(lib_id "power:GND")
