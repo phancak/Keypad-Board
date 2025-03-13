@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "4727cf53-8c99-4615-a2e8-49206f192bc9")
 	(paper "A3")
+	(title_block
+		(title "Keypad Board")
+		(date "2025-03-13")
+		(rev "A")
+		(company "Peter Hancak")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
