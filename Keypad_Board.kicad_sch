@@ -5531,9 +5531,9 @@
 		)
 		(uuid "bb1313ec-a46f-4898-95dc-763a970fad7f")
 	)
-	(text "If you won't use RTC or a 32 kHz clock:\n\nTie OSC32_IN to GND\nLeave OSC32_OUT floating\n\nBOOT0 Cofiguration\n1 MCU enters built-in bootloader mode, allowing firmware \nupdates via UART or I2C. Used for flashing firmware \nwithout a debugger.\n0 MCU starts normally, running the user program stored \nin internal flash. ✅ (Normal operation)"
+	(text "If you won't use RTC or a 32 kHz clock:\nTie OSC32_IN to GND\nLeave OSC32_OUT floating\n\nBOOT0 Cofiguration\n1 MCU enters built-in bootloader mode, allowing firmware \nupdates via UART or I2C. Used for flashing firmware \nwithout a debugger.\n0 MCU starts normally, running the user program stored \nin internal flash. ✅ (Normal operation)\n\nSEL Switch select (logic Low = COM to A PORT Logic \nHigh = COM to B PORT) EN Enable (active low)\n\nThe TMUX136 has internal 6-MΩ pull-down resistors on \nSEL and EN, so no external resistors are required on \nthe logic pins. \nThe internal pull-down resistor on SEL allows the \nPORT A channel to be selected by default. The internal \npull-down resistor on EN enables the switch when power \nis applied to VCC."
 		(exclude_from_sim no)
-		(at 330.2 46.355 0)
+		(at 328.422 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5555,7 +5555,7 @@
 	)
 	(text "STM32MP157FAD1 2x\nSTM32WB55CGU6 2x\nSTM32WB5MMGH6TR\nSTM32MP135DAF7\nSTM32H7S7L8H6H\n\nSTSPIN958TR\nSTM32H7S3I8T6\nLSM6DSV16XTR\nISM330BXTR\nSTM32WL55CCU6\nSTM32WL55JCI6 2x"
 		(exclude_from_sim no)
-		(at 0.762 32.512 0)
+		(at -24.384 32.512 0)
 		(effects
 			(font
 				(size 1 1)
