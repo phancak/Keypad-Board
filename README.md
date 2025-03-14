@@ -17,4 +17,5 @@ This project features a compact and power-efficient **12-button keypad** designe
 
 By using the **STM32L010K4T6 MCU** to manage the keypad’s input processing, this design reduces the workload on the host MCU, allowing it to focus on other critical tasks. This solution is ideal for applications where low power and efficient processing are key considerations.
 
+Device Schematics:
 ![Alt text](https://github.com/phancak/Keypad-Board/blob/Allternate-Version-B/Keypad-Board-Schematics.png)
