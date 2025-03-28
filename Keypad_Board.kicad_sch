@@ -5923,6 +5923,16 @@
 		)
 		(uuid "04d4e1ee-cd9c-47d3-a0d8-51cf447ec693")
 	)
+	(label "PA15"
+		(at 140.97 43.18 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "06dac8c7-761c-4428-b49d-9134f50c00f6")
+	)
 	(label "I2C1_SCL"
 		(at 130.81 46.99 90)
 		(fields_autoplaced yes)
@@ -5947,6 +5957,7 @@
 	)
 	(label "PB4"
 		(at 135.89 41.91 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5987,6 +5998,17 @@
 			(justify left bottom)
 		)
 		(uuid "1d644ef2-e824-4708-a7d7-b3bbf20d0354")
+	)
+	(label "SEL"
+		(at 133.35 38.1 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1e208602-c2b0-4ce7-a700-73e90f596e86")
 	)
 	(label "SYS_SWDIO"
 		(at 157.48 74.93 0)
@@ -6045,6 +6067,7 @@
 	)
 	(label "PB3"
 		(at 138.43 41.91 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6063,6 +6086,17 @@
 			(justify left bottom)
 		)
 		(uuid "355c1242-627d-453b-a96b-565f4ea68c6d")
+	)
+	(label "PB4"
+		(at 290.83 209.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d8ecddf-0546-4d26-bd63-17d2359ab43f")
 	)
 	(label "PA3"
 		(at 86.36 163.83 90)
@@ -6140,17 +6174,6 @@
 			(justify left bottom)
 		)
 		(uuid "61df187e-4c60-4989-8b23-241e9eda0807")
-	)
-	(label "SEL"
-		(at 140.97 41.91 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "647d8a70-b949-4920-9543-487973332503")
 	)
 	(label "PA5"
 		(at 128.27 114.3 270)
@@ -6251,6 +6274,17 @@
 		)
 		(uuid "9d9a978f-3fa2-4cf9-a8eb-14a0c12b53eb")
 	)
+	(label "PA15"
+		(at 290.83 214.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9db28ebd-2836-4f4e-af14-bb2830bf3385")
+	)
 	(label "BOOT0"
 		(at 95.25 45.72 0)
 		(fields_autoplaced yes)
@@ -6319,16 +6353,6 @@
 	)
 	(label "PA12"
 		(at 162.56 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c0abc942-2474-4366-9de8-77d11c26cf7a")
-	)
-	(label "PB3"
-		(at 290.83 214.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6336,7 +6360,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "c218b969-57e8-434b-a2af-9afcd19ae4b0")
+		(uuid "c0abc942-2474-4366-9de8-77d11c26cf7a")
 	)
 	(label "PB1"
 		(at 138.43 114.3 270)
@@ -6348,17 +6372,6 @@
 			(justify right bottom)
 		)
 		(uuid "c41c14ad-8dd2-47c5-baa7-ef1a75b271de")
-	)
-	(label "PB4"
-		(at 290.83 212.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c76d35b5-f1ce-4ae5-a11b-76dd6e95c365")
 	)
 	(label "PA12"
 		(at 290.83 217.17 0)
@@ -6404,16 +6417,6 @@
 		)
 		(uuid "eb6e1fd8-2104-411d-947a-59214d6e56fe")
 	)
-	(label "PB5"
-		(at 133.35 41.91 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f05e9a48-cea4-45b6-893b-2cb7e95f45fd")
-	)
 	(label "PA10"
 		(at 162.56 82.55 0)
 		(fields_autoplaced yes)
@@ -6436,8 +6439,8 @@
 		)
 		(uuid "f243cbfc-1c05-49ec-b1dd-90af8eda8094")
 	)
-	(label "PB5"
-		(at 290.83 209.55 0)
+	(label "PB3"
+		(at 290.83 212.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6445,7 +6448,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "f86e65dd-b379-4141-8423-b6acc1909666")
+		(uuid "ff4b1258-f3f3-4527-805e-c041feaa3ccc")
 	)
 	(symbol
 		(lib_id "power:GND")
