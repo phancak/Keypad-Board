@@ -69,5 +69,3 @@ This design optimizes processing efficiency on the host system by **offloading k
 This project is open-source under the **MIT License**.  
 
 ---
-
-This description highlights **technical depth and real-world use cases**, making it impressive for potential employers. Would you like to add **benchmark results or power consumption analysis**? 🚀
