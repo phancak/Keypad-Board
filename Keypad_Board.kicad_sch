@@ -3156,7 +3156,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 74.93) (xy 210.82 74.93)
+			(xy 210.82 74.93) (xy 241.3 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3176,7 +3176,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 77.47) (xy 210.82 77.47)
+			(xy 210.82 77.47) (xy 241.3 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4556,16 +4556,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 74.93) (xy 236.22 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b144f61-1a8c-4192-bc2c-f79fd7f059b6")
-	)
-	(wire
-		(pts
 			(xy 151.13 77.47) (xy 167.64 77.47)
 		)
 		(stroke
@@ -4843,16 +4833,6 @@
 			(type default)
 		)
 		(uuid "a4610c8e-a608-4223-8c74-a32e7ad876ae")
-	)
-	(wire
-		(pts
-			(xy 241.3 77.47) (xy 236.22 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4b44c8f-28b8-4e59-838b-0b5e7cd10d6c")
 	)
 	(wire
 		(pts
@@ -9756,7 +9736,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "33R"
 			(at 237.744 68.834 90)
 			(effects
 				(font
@@ -10168,73 +10148,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 232.41 77.47 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "817d4fae-2b91-467f-96cc-601d623d4c42")
-		(property "Reference" "R4"
-			(at 227.584 76.454 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 237.744 76.454 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 232.41 79.248 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 232.41 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 232.41 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "30d5b928-4c0a-401c-ad6b-2a3ab874df4e")
-		)
-		(pin "2"
-			(uuid "c433ff0b-7e23-4d46-a369-85b2c82f913f")
-		)
-		(instances
-			(project "Keypad_Board"
-				(path "/4727cf53-8c99-4615-a2e8-49206f192bc9"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 232.41 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10250,7 +10163,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "33R"
 			(at 237.744 71.374 90)
 			(effects
 				(font
@@ -13363,73 +13276,6 @@
 			(project "Keypad_Board"
 				(path "/4727cf53-8c99-4615-a2e8-49206f192bc9"
 					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 232.41 74.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fba33cf7-ff6a-4972-86df-8854c8e390dc")
-		(property "Reference" "R3"
-			(at 227.584 73.914 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 237.744 73.914 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 232.41 76.708 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 232.41 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 232.41 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec2737a9-cf78-43cb-a16f-f5e20e67f712")
-		)
-		(pin "2"
-			(uuid "b842fe59-68a1-476f-a797-cb06dc3d3516")
-		)
-		(instances
-			(project "Keypad_Board"
-				(path "/4727cf53-8c99-4615-a2e8-49206f192bc9"
-					(reference "R3")
 					(unit 1)
 				)
 			)
