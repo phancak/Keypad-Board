@@ -5724,7 +5724,7 @@
 		)
 		(uuid "ff663da6-4d10-42b0-89a5-6abc6fc8bda0")
 	)
-	(text_box "Notes"
+	(text_box "Notes:\n\nIf you won't use RTC or a 32 kHz clock:\nTie OSC32_IN to GND\nLeave OSC32_OUT floating\n\nBOOT0 Cofiguration\n1 MCU enters built-in bootloader mode, allowing firmware \nupdates via UART or I2C. Used for flashing firmware \nwithout a debugger.\n0 MCU starts normally, running the user program stored \nin internal flash. ✅ (Normal operation)\n\nSEL Switch select (logic Low = COM to A PORT Logic \nHigh = COM to B PORT) EN Enable (active low)\n\nThe TMUX136 has internal 6-MΩ pull-down resistors on \nSEL and EN, so no external resistors are required on \nthe logic pins. \nThe internal pull-down resistor on SEL allows the \nPORT A channel to be selected by default. The internal \npull-down resistor on EN enables the switch when power \nis applied to VCC.\n\nIncluded vertical pin header for I2C continuation"
 		(exclude_from_sim no)
 		(at 320.929 26.162 0)
 		(size 72.136 106.553)
@@ -5837,17 +5837,6 @@
 			(justify left top)
 		)
 		(uuid "bb1313ec-a46f-4898-95dc-763a970fad7f")
-	)
-	(text "If you won't use RTC or a 32 kHz clock:\nTie OSC32_IN to GND\nLeave OSC32_OUT floating\n\nBOOT0 Cofiguration\n1 MCU enters built-in bootloader mode, allowing firmware \nupdates via UART or I2C. Used for flashing firmware \nwithout a debugger.\n0 MCU starts normally, running the user program stored \nin internal flash. ✅ (Normal operation)\n\nSEL Switch select (logic Low = COM to A PORT Logic \nHigh = COM to B PORT) EN Enable (active low)\n\nThe TMUX136 has internal 6-MΩ pull-down resistors on \nSEL and EN, so no external resistors are required on \nthe logic pins. \nThe internal pull-down resistor on SEL allows the \nPORT A channel to be selected by default. The internal \npull-down resistor on EN enables the switch when power \nis applied to VCC.\n\nIncluded vertical pin header for I2C continuation"
-		(exclude_from_sim no)
-		(at 328.422 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "867d864a-c649-4c2d-9e9d-ab167c647d86")
 	)
 	(text "SEL Switch select (logic Low = COM to A PORT Logic High = COM to B PORT)\nEN Enable (active low)\n\nThe TMUX136 has internal 6-MΩ pull-down resistors on SEL and EN, so no external resistors are required on\nthe logic pins. The internal pull-down resistor on SEL allows the PORT A channel to be selected by default. The\ninternal pull-down resistor on EN enables the switch when power is applied to VCC."
 		(exclude_from_sim no)
